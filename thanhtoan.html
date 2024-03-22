@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán</title>
+    <link rel="stylesheet" href="thanhtoan.css">
+<body>
+
+<div class="container">
+    <h2>Thanh toán</h2>
+    <div class="product">
+        <img src="./anh15.jpg" alt="Máy tính">
+        <h3>Máy tính</h3>
+        17.999.000<sup>đ</sup>
+        <div class="quantity">
+            <label for="quantity">Số lượng:</label>
+            <input type="number" id="quantity" name="quantity" value="1" min="1" required>
+        </div>
+    </div>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="cardnumber">Tên người mua</label>
+            <input type="text" id="cardnumber" name="cardnumber" placeholder="Nhập số thẻ của bạn.." required>
+        </div>
+
+        <div class="form-group">
+            <label for="expiry">Địa chỉ nhận hàng</label>
+            <input type="text" id="expiry" name="expiry" placeholder="Vui lòng ghi địa chỉ nhận" required>
+        </div>
+
+        <div class="form-group">
+            <label for="cvv">Số điện thoại</label>
+            <input type="text" id="cvv" name="cvv" placeholder="Nhập số" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Nhập email của bạn.." required>
+        </div>
+        <input type="submit" value="Thanh toán">
+    </form>
+</div>
+
+</body>
+</html>
